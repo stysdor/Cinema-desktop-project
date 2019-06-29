@@ -12,7 +12,7 @@ using Cinema.Infrastructure.Repositories;
 namespace Cinema.Infrastructure.Services
 {
     /// <summary>
-    /// Provides methods for using showing 
+    /// Provides methods for using showings. 
     /// </summary> 
     public class ShowingService : IShowingService
     {

@@ -7,6 +7,10 @@ using Cinema.Core.Domain;
 
 namespace Cinema.Core.Repositories
 {
+
+    /// <summary>
+    /// Interface for Category repository.
+    /// </summary>
     public interface ICategoryRepository : IGetDataRepository<Category>
     {
         Category GetByName(string name);

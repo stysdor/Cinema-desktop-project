@@ -11,6 +11,9 @@ using Cinema.Infrastructure.Repositories;
 
 namespace Cinema.Infrastructure.Services
 {
+    /// <summary>
+    /// Provides methods for using reservations. 
+    /// </summary>>
     public class ReservationService : IReservationService
     {
 

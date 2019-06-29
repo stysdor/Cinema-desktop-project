@@ -7,6 +7,9 @@ using Cinema.Core.Domain;
 
 namespace Cinema.Core.Repositories
 {
+    /// <summary>
+    /// Interface for RowSeat repository.
+    /// </summary>
     public interface IRowSeatRepository : IGetDataRepository<RowSeat>
     {
     }

@@ -7,6 +7,10 @@ using Cinema.Core.Domain;
 
 namespace Cinema.Core.Repositories
 {
+
+    /// <summary>
+    /// Interface for Customer repository.
+    /// </summary>
     public interface ICustomerRepository : IGetDataRepository<Customer>
     {
         Customer GetByData(Customer customer);

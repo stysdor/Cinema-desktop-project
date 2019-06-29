@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Cinema.Core.Domain
 {
+    /// <summary>
+    /// Represents Showing table from datebase.
+    /// </summary>
     public class Showing : EntityBase
     {
         public Movie MovieId { get; set; }

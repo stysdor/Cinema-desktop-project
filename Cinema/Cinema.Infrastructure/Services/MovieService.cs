@@ -12,7 +12,7 @@ using Cinema.Infrastructure.Repositories;
 namespace Cinema.Infrastructure.Services
 {
     /// <summary>
-    /// Provides methods for using movie
+    /// Provides methods for using MovieRepository.
     /// </summary> 
     public class MovieService : IMovieService
     {

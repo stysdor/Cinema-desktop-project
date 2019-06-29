@@ -7,6 +7,9 @@ using Cinema.Infrastructure.Dto;
 
 namespace Cinema.Infrastructure.Services
 {
+    /// <summary>
+    /// Interface for MovieService.
+    /// </summary>
     public interface IMovieService
     {
         MovieDto Get(int id);

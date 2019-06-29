@@ -7,6 +7,9 @@ using Cinema.Core.Domain;
 
 namespace Cinema.Core.Repositories
 {
+    /// <summary>
+    /// Interface for Theatre repository.
+    /// </summary>
     public interface ITheatreRepository : IGetDataRepository<Theatre>
     {
     }

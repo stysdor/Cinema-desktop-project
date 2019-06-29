@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Cinema.Core.Domain
 {
+    /// <summary>
+    /// Represents Role table from datebase.
+    /// </summary>
     public class Role : EntityBase
     {
         public string RoleName { get; set; }

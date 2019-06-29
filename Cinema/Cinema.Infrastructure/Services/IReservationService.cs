@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Cinema.Infrastructure.Services
 {
+    /// <summary>
+    /// Interface for ReservationService.
+    /// </summary>
     public interface IReservationService
     {
         ReservationDto Get(int id);

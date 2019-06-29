@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Cinema.Infrastructure.Services
 {
+    /// <summary>
+    /// Interface for ShowingService.
+    /// </summary>
     public interface IShowingService
     {
         ShowingDto Get(int id);

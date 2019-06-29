@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Cinema.Infrastructure.Services
 {
+    /// <summary>
+    /// Interface for CustomerService.
+    /// </summary>
     public interface ICustomerService
     {
         CustomerDto Get(int id);
